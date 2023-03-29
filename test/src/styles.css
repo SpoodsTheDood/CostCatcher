@@ -13,6 +13,17 @@ button{
     border-style: groove;
     font-size: 250%;
 }
+.column {
+    float: left;
+  }
+  
+  .left, .right {
+    width: 25%;
+  }
+  
+  .middle {
+    width: 50%;
+  }
 html{
     height: 100%;
     width: 100%;
