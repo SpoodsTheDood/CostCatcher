@@ -14,15 +14,24 @@ button{
     font-size: 250%;
 }
 .column {
-    float: left;
+    text-align: center;
+    border:#F4AF23;
+    border-style: double;
+    background-color: #3C1053;
+    color: #D7A9E3;
+    width: fit-content;
+    font-size: 200%;
+    margin: auto;
+    
   }
   
-  .left, .right {
-    width: 25%;
+  .left {
+    width: 30%;
   }
   
   .middle {
-    width: 50%;
+    background-color:#890C58;
+    width: 40%;
   }
 html{
     height: 100%;
