@@ -13,7 +13,7 @@ button{
     border-style: groove;
     font-size: 250%;
 }
-.column {
+/*.column {
   margin-top: 5%;
     text-align: center;
     border:#F4AF23;
@@ -25,15 +25,28 @@ button{
     margin: auto;
     padding: 1%;
     
+  }*/
+  
+  .column {
+    margin-top: 5%;
+    text-align: center;
+    border:#F4AF23;
+    border-style: double;
+    background-color: #3C1053;
+    color: #D7A9E3;
+    width: 50%;
+    font-size: 200%;
+    margin: auto;
+    padding: 1%;
+    float: left;
   }
   
-  .left {
-    width: 30%;
+  .left, .right {
+    width: 25%;
   }
   
   .middle {
-    background-color:#890C58;
-    width: 40%;
+    width: 25%;
   }
 html{
     height: 100%;
